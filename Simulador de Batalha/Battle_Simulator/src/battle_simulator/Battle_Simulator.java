@@ -25,7 +25,7 @@ public class Battle_Simulator {
     //Selecting your adversary
     System.out.println("\n Select your adversary!\n");
     SelectedChampion = SelectChampion(PlayerChampion.getName());
-    System.out.println("\n Select your equipment!\n");
+    System.out.println("\n Select your adversary equipment!\n");
     SelectedItem = SelectItem(PlayerChampion.getItem());
     
     Champion AdversaryChampion = new Champion(SelectedChampion,SelectedItem);
